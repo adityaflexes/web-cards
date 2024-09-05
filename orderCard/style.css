@@ -12,3 +12,85 @@ a{
     text-decoration: none;
 }
 
+.container{
+    background-color: #eee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header{
+    min-width: 100%;
+    min-height: 150px;
+    background: url('https://i.pinimg.com/736x/da/78/89/da78891401fa72d67510a3450948c960.jpg');
+    background-size: contain;
+    background-position: center;
+
+}
+
+.card .order-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 1rem;
+    text-align: center;
+    gap: 2rem;
+    padding-inline: 1rem;
+}
+
+.card .order-content p{
+    font-size: .9rem;
+}
+
+.card .order-content .annual-plan{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #17115d82;
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    color: white;
+}
+
+.card .order-content .annual-plan .music-icon{
+    font-size: 2rem;
+}
+
+.change-plan{
+    margin-left: 2rem ;
+    color: pink;
+    text-decoration: underline;
+}
+
+.payment-btn{
+    width: 19rem;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.405);
+}
+
+.cancel-order-btn{
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: #575252;
+    cursor: pointer;
+}
